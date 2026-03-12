@@ -2,10 +2,10 @@ name: Build & Publish web3.js
 
 on:
   push:
-    branches: [main, configure-github-action]
+    branches: [main, test_publish_nmp]
     tags: ['v*']
   pull_request:
-    branches: [main, configure-github-action]
+    branches: [main, test_publish_nmp]
   workflow_dispatch:
 
 concurrency:
